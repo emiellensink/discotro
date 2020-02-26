@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011260B70B0741C300ECAA09 /* OpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 011260B60B0741C300ECAA09 /* OpenGLView.mm */; };
+		011261410B0745F200ECAA09 /* Scene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 011261400B0745F200ECAA09 /* Scene.mm */; };
+		012A4E5A0B0C860E007FC493 /* Ball.mm in Sources */ = {isa = PBXBuildFile; fileRef = 012A4E590B0C860E007FC493 /* Ball.mm */; };
+		01A47ADF0B43DD79003FC120 /* DiscoFloor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01A47ADE0B43DD79003FC120 /* DiscoFloor.mm */; };
+		01D07B8C0B07A1CE003F3F35 /* InputManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01D07B8B0B07A1CE003F3F35 /* InputManager.mm */; };
+		01D07C7A0B07AAED003F3F35 /* Quaternion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01D07C790B07AAED003F3F35 /* Quaternion.mm */; };
+		01D07E110B07BBD5003F3F35 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D07E100B07BBD5003F3F35 /* OpenGL.framework */; };
+		01F05C450B43FC73006DF01E /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F05C440B43FC73006DF01E /* tile.png */; };
+		17496A770B43E2C600BF680F /* OpenGLTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17496A760B43E2C600BF680F /* OpenGLTexture.mm */; };
+		17496A7B0B43E33400BF680F /* Ventjes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17496A7A0B43E33400BF680F /* Ventjes.mm */; };
+		17496A950B43EBE900BF680F /* nine.png in Resources */ = {isa = PBXBuildFile; fileRef = 17496A930B43EBE900BF680F /* nine.png */; };
+		17496A960B43EBE900BF680F /* tumlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 17496A940B43EBE900BF680F /* tumlogo.png */; };
+		178757812406B3C2004E2DF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178757802406B3C2004E2DF2 /* Images.xcassets */; };
+		17CA066624067800007A35BF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CA066524067800007A35BF /* CoreVideo.framework */; };
+		17CA0668240679E3007A35BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CA0667240679E3007A35BF /* AVFoundation.framework */; };
+		17CA06AC24069518007A35BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CA06AB24069518007A35BF /* Main.storyboard */; };
+		17CA06AF24069568007A35BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CA06AE24069568007A35BF /* ViewController.m */; };
+		17CA06B2240695CB007A35BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CA06B1240695CB007A35BF /* AppDelegate.m */; };
+		17D229ED0B441E2500CD61A9 /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D229EC0B441E2500CD61A9 /* round.png */; };
+		17D22A3F0B4429D000CD61A9 /* discotro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17D22A3E0B4429D000CD61A9 /* discotro.m4a */; };
+		17D363880B443132000645E3 /* font.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D363870B443132000645E3 /* font.png */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011260B50B0741C300ECAA09 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		011260B60B0741C300ECAA09 /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLView.mm; sourceTree = "<group>"; };
+		0112613F0B0745F200ECAA09 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		011261400B0745F200ECAA09 /* Scene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Scene.mm; sourceTree = "<group>"; };
+		012A4E430B0C8437007FC493 /* SceneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneObject.h; sourceTree = "<group>"; };
+		012A4E580B0C860E007FC493 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		012A4E590B0C860E007FC493 /* Ball.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ball.mm; sourceTree = "<group>"; };
+		012A4E830B0C8776007FC493 /* Types3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types3D.h; sourceTree = "<group>"; };
+		01A47ADD0B43DD79003FC120 /* DiscoFloor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DiscoFloor.h; sourceTree = "<group>"; };
+		01A47ADE0B43DD79003FC120 /* DiscoFloor.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = DiscoFloor.mm; sourceTree = "<group>"; };
+		01D07B8A0B07A1CE003F3F35 /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		01D07B8B0B07A1CE003F3F35 /* InputManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InputManager.mm; sourceTree = "<group>"; };
+		01D07C780B07AAED003F3F35 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		01D07C790B07AAED003F3F35 /* Quaternion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Quaternion.mm; sourceTree = "<group>"; };
+		01D07E100B07BBD5003F3F35 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		01F05C440B43FC73006DF01E /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		17496A750B43E2C400BF680F /* OpenGLTexture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OpenGLTexture.h; sourceTree = "<group>"; };
+		17496A760B43E2C600BF680F /* OpenGLTexture.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLTexture.mm; sourceTree = "<group>"; };
+		17496A790B43E33400BF680F /* Ventjes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ventjes.h; sourceTree = "<group>"; };
+		17496A7A0B43E33400BF680F /* Ventjes.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ventjes.mm; sourceTree = "<group>"; };
+		17496A930B43EBE900BF680F /* nine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nine.png; sourceTree = "<group>"; };
+		17496A940B43EBE900BF680F /* tumlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumlogo.png; sourceTree = "<group>"; };
+		178757802406B3C2004E2DF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Discotro/Images.xcassets; sourceTree = "<group>"; };
+		17CA066524067800007A35BF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		17CA0667240679E3007A35BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		17CA06AB24069518007A35BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		17CA06AD24069568007A35BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17CA06AE24069568007A35BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17CA06B0240695CB007A35BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17CA06B1240695CB007A35BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17D229D30B4417B800CD61A9 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		17D229EC0B441E2500CD61A9 /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
+		17D22A3E0B4429D000CD61A9 /* discotro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = discotro.m4a; sourceTree = "<group>"; };
+		17D363870B443132000645E3 /* font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font.png; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Discotro_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discotro_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Discotro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discotro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CA0668240679E3007A35BF /* AVFoundation.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				01D07E110B07BBD5003F3F35 /* OpenGL.framework in Frameworks */,
+				17CA066624067800007A35BF /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17496A750B43E2C400BF680F /* OpenGLTexture.h */,
+				17496A760B43E2C600BF680F /* OpenGLTexture.mm */,
+				01A47ADD0B43DD79003FC120 /* DiscoFloor.h */,
+				01A47ADE0B43DD79003FC120 /* DiscoFloor.mm */,
+				012A4E830B0C8776007FC493 /* Types3D.h */,
+				012A4E580B0C860E007FC493 /* Ball.h */,
+				012A4E590B0C860E007FC493 /* Ball.mm */,
+				012A4E430B0C8437007FC493 /* SceneObject.h */,
+				01D07C780B07AAED003F3F35 /* Quaternion.h */,
+				01D07C790B07AAED003F3F35 /* Quaternion.mm */,
+				01D07B8A0B07A1CE003F3F35 /* InputManager.h */,
+				01D07B8B0B07A1CE003F3F35 /* InputManager.mm */,
+				0112613F0B0745F200ECAA09 /* Scene.h */,
+				011261400B0745F200ECAA09 /* Scene.mm */,
+				011260B50B0741C300ECAA09 /* OpenGLView.h */,
+				011260B60B0741C300ECAA09 /* OpenGLView.mm */,
+				17496A790B43E33400BF680F /* Ventjes.h */,
+				17496A7A0B43E33400BF680F /* Ventjes.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01D07E100B07BBD5003F3F35 /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Discotro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Discotro */ = {
+			isa = PBXGroup;
+			children = (
+				17CA06B0240695CB007A35BF /* AppDelegate.h */,
+				17CA06B1240695CB007A35BF /* AppDelegate.m */,
+				17CA06AD24069568007A35BF /* ViewController.h */,
+				17CA06AE24069568007A35BF /* ViewController.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Discotro;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Discotro_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				178757802406B3C2004E2DF2 /* Images.xcassets */,
+				17CA06AB24069518007A35BF /* Main.storyboard */,
+				17D363870B443132000645E3 /* font.png */,
+				17D22A3E0B4429D000CD61A9 /* discotro.m4a */,
+				17D229EC0B441E2500CD61A9 /* round.png */,
+				01F05C440B43FC73006DF01E /* tile.png */,
+				17496A930B43EBE900BF680F /* nine.png */,
+				17496A940B43EBE900BF680F /* tumlogo.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17CA0667240679E3007A35BF /* AVFoundation.framework */,
+				17CA066524067800007A35BF /* CoreVideo.framework */,
+				17D229D30B4417B800CD61A9 /* QTKit.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Discotro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Discotro" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Discotro;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Discotro;
+			productReference = 8D1107320486CEB800E47090 /* Discotro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Discotro" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Discotro */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Discotro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CA06AC24069518007A35BF /* Main.storyboard in Resources */,
+				178757812406B3C2004E2DF2 /* Images.xcassets in Resources */,
+				17496A950B43EBE900BF680F /* nine.png in Resources */,
+				17496A960B43EBE900BF680F /* tumlogo.png in Resources */,
+				01F05C450B43FC73006DF01E /* tile.png in Resources */,
+				17D229ED0B441E2500CD61A9 /* round.png in Resources */,
+				17D22A3F0B4429D000CD61A9 /* discotro.m4a in Resources */,
+				17D363880B443132000645E3 /* font.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CA06B2240695CB007A35BF /* AppDelegate.m in Sources */,
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				011260B70B0741C300ECAA09 /* OpenGLView.mm in Sources */,
+				011261410B0745F200ECAA09 /* Scene.mm in Sources */,
+				01D07B8C0B07A1CE003F3F35 /* InputManager.mm in Sources */,
+				17CA06AF24069568007A35BF /* ViewController.m in Sources */,
+				01D07C7A0B07AAED003F3F35 /* Quaternion.mm in Sources */,
+				012A4E5A0B0C860E007FC493 /* Ball.mm in Sources */,
+				01A47ADF0B43DD79003FC120 /* DiscoFloor.mm in Sources */,
+				17496A770B43E2C600BF680F /* OpenGLTexture.mm in Sources */,
+				17496A7B0B43E33400BF680F /* Ventjes.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9458LNHEKL;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Discotro;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9458LNHEKL;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Discotro;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Discotro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Discotro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
