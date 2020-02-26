@@ -13,3 +13,5 @@ Anyway... we were at a party in Germany, called The Ultimate Meeting, in 2006. A
 # Code?
 This is a recently updated version of the code we made back in 2006. It no longer compiled on a modern XCode and the old executable we had no longer runs on a 64-bit only operating system. The code is mostly Objective C and Objective C++ with a few bits of regular C++. It uses the (now deprecated) OpenGL graphics system for rendering graphics. This code is nowhere close to being production quality, so don't hold that against me! :)
 
+# License
+MIT, do with it what you want. I uploaded this mostly to not lose it again myself and because someone might find it interesting.
