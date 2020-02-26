@@ -1,6 +1,9 @@
 # Discotro
 TUM 2006 Surprise compo entry
 
+![Screenshot of the best Into ever](https://github.com/emiellensink/discotro/blob/master/Images/Screenshot.png)
+
+
 # Once upon a time...
 ... I was part of a small group of friends who liked to visit demo scene parties. For those of you who don't know what this is, it's a LAN party where the focus is not on gaming but on (interactive) computer art. Google it if you want to know more about this phenomenon. 
 
