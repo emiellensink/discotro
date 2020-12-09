@@ -11,7 +11,7 @@
 unsigned int truncPowerOf2(unsigned int x)
 {
 	int i = 0;
-	while (x = x >> 1) i++;
+    while ((x = x >> 1)) i++;
 	return (1 << i);
 }
 
@@ -63,7 +63,7 @@ bool TextureFromNSImage(NSImage *image, GLuint *texID, GLuint *width, GLuint *he
     glBindTexture(GL_TEXTURE_2D, *texID);
 	
 	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
-	glPixelStorei(GL_UNPACK_ROW_LENGTH, sourceRowBytes/pixelSize);
+	glPixelStorei(GL_UNPACK_ROW_LENGTH, GLint(sourceRowBytes/pixelSize));
  	
     *width = truncPowerOf2(imageSize.width);
     *height = truncPowerOf2(imageSize.height);

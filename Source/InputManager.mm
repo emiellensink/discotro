@@ -33,7 +33,7 @@
 //////////////////////////////////////////////////////////////////////////////
 - (void)setKey:(NSEvent *)theEvent to:(BOOL)pressed
 {
-	unsigned int modifierFlags = [theEvent modifierFlags];
+	unsigned int modifierFlags = (unsigned int)[theEvent modifierFlags];
 	
 	if (modifierFlags & NSFunctionKeyMask)
 	{

@@ -22,7 +22,7 @@
 //////////////////////////////////////////////////////////////////////////////
 - initWithSizeW:(int)w H:(int)h
 {
-	srand(time(NULL));
+	srand((unsigned int)time(NULL));
 	
 	changeTime = 0;
 

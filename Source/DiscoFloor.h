@@ -9,8 +9,7 @@
 #import "Types3D.h"
 #import "Quaternion.h"
 #import "OpenGLTexture.h"
-
-@protocol SceneObject;
+#import "SceneObject.h"
 
 //////////////////////////////////////////////////////////////////////////////
 // DiscoFloor interface definition

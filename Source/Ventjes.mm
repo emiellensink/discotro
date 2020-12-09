@@ -255,7 +255,7 @@ bool MyDataSortPredicate(const bunny& lhs, const bunny& rhs)
 	// Sort the vector using predicate and std::sort
 	std::sort(renderlist.begin(), renderlist.end(), MyDataSortPredicate);
 	
-	int ct = renderlist.size();
+	int ct = (int)renderlist.size();
 	
 	for (int i = 0; i < ct; i++)
 	{
