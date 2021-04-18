@@ -5,7 +5,7 @@ TUM 2006 Surprise compo entry
 
 
 # Once upon a time...
-... I was part of a small group of friends who liked to visit demo scene parties. For those of you who don't know what this is, it's a LAN party where the focus is not on gaming but on (interactive) computer art. Google it if you want to know more about this phenomenon. 
+... I was part of a small group of friends who liked to visit demo scene parties. For those of you who don't know what this is, it's a LAN party where the focus is not on gaming but on (interactive) computer art. Duck Duck Go it if you want to know more about this phenomenon. 
 
 # Surprise compo
 Anyway... we were at a party in Germany, called The Ultimate Meeting, in 2006. As was tradition back then, the party also hosted a so called 'surprise compo' where we had a few hours to make an entry, during the party. This repository contains the result of a few hours of half drunk coding in the middle of the night. We ended up fourth place with it and were the only Mac demo.
